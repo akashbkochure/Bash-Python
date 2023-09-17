@@ -1,18 +1,18 @@
 #!/bin/bash
 
-my_array=("apple" "banana" "cherry")
+array=("apple" "banana" "cherry")
 
-echo ${my_array[0]}  
+echo ${array[0]}  
 
 ###########
 
 #!/bin/bash
 
-my_array=("apple" "banana" "cherry")
+array=("apple" "banana" "cherry")
 
 read num
 
-echo ${my_array[$num]}  
+echo ${array[$num]}  
 
 
 
