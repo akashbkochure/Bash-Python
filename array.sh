@@ -1,5 +1,26 @@
 #!/bin/bash
 
+my_array=("apple" "banana" "cherry")
+
+echo ${my_array[0]}  
+
+###########
+
+#!/bin/bash
+
+my_array=("apple" "banana" "cherry")
+
+read num
+
+echo ${my_array[$num]}  
+
+
+
+#############
+
+
+#!/bin/bash
+
 array=("apple" "pipe" "cherry" "strawberry")
 
 for element in "${array[0]}"; do
